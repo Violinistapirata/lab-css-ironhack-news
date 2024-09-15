@@ -186,18 +186,18 @@ header {
     flex-direction: column;
     align-items: center;
   }
-
+  
   .navbar li {
     width: 100%;
     border-right: none;
     border-bottom: 1px solid #ffffff;    
   }
-
+  
   .main-article {
     flex-direction: column;
     align-items: center;
   }
-
+  
   .main-article .image {
     width: 100%;
   }
@@ -206,12 +206,28 @@ header {
     margin-top: 10px;
     width: 100%;
   }
-
+  
   .articles-container {
     flex-direction: column;
   }
   
   .article {
     width: 100%;
+  }
+}
+
+@media (min-width: 760px) and (max-width: 1024px) {
+  
+  .navbar {
+    justify-content: space-around;
+  }
+
+  .navbar li {
+    width: 100%;
+  }
+
+  .article {
+    width: 45%;
+    margin-bottom: 25px;
   }
 }
